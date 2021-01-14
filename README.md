@@ -17,18 +17,19 @@ Body:
     "params": []
 }
 
-db_type: Can be mysql or postgre.
-host: Database host url.
-port: Connection port.
-database: Database name.
-schema: Optional, default schema.
-user: Database user name.
-password: Database password.
-*query: Database query
-params: Array params for the query
+db_type: Can be mysql or postgre.  
+host: Database host url.  
+port: Connection port.  
+database: Database name.  
+schema: Optional, default schema.  
+user: Database user name.  
+password: Database password.  
+*query: Database query  
+params: Array params for the query  
 
-*Preferentially use parameters to avoid SQL injection.
-**For Postgre use the notation needed to replace the parameter. Example:
-    SELECT "documentStatusTransition"."toDocumentStatusId"
-	FROM "documentStatusTransition"
-    WHERE "documentStatusTransition"."fromDocumentStatusId" = $1;
+*Preferentially use parameters to avoid SQL injection.  
+**For Postgre use the notation needed to replace the parameter.  
+Example:  
+    SELECT "documentStatusTransition"."toDocumentStatusId"  
+	FROM "documentStatusTransition"  
+    WHERE "documentStatusTransition"."fromDocumentStatusId" = $1;  
