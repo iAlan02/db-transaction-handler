@@ -17,7 +17,7 @@ Body:
     "params": []
 }
 
-db_type: Can be db2, mysql or postgre.
+db_type: Can be mysql or postgre.
 host: Database host url.
 port: Connection port.
 database: Database name.
