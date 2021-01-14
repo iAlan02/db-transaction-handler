@@ -1,6 +1,6 @@
 # generic_db_api
 
-API to execute queries in DB2, MySQL and Postgre
+API to execute queries in MySQL and Postgre
 
 Use example
 /api/v1/postDb/runQuery
